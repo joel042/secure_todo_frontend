@@ -1,9 +1,25 @@
-# React + Vite
+Todo Application - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
 
-Currently, two official plugins are available:
+The Todo Application Frontend is a React.js single-page application that provides a clean and user-friendly interface for managing todos. It integrates with a Node.js backend API for user authentication and task management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# secure_todo_frontend" 
+Features
+
+✅ User Authentication (Register/Login with JWT)
+✅ Todo Management (Add, View, Delete Todos)
+✅ Protected Routes (Only logged-in users can access Todos)
+✅ API Integration using Axios
+✅ Modern UI (Can be styled with Tailwind, Bootstrap, etc.)
+
+1️⃣ Frontend Setup (React.js)
+
+🔹 Install Dependencies
+
+npx create-react-app todo-frontend
+cd todo-frontend
+npm install axios react-router-dom
+
+🔹 Configure API Calls
+
+Ensure API calls in src/App.js point to the backend at http://localhost:5000/api.
